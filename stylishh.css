@@ -1,0 +1,713 @@
+.hhh{
+   margin: auto;
+    padding: 12px 0;
+    background-color: #3F5168;
+    color: #F1F3F5;
+    font-size: larger;
+    text-align: center;
+}
+.button,.buttonn{
+    background-color: #4C8C7A;
+    color: white;
+    font-size: larger;
+    padding: 12px 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s ease, transform 0.2s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+.button:hover,.buttonn:hover{
+    background-color: #395766;
+    transform: translatey(-2px);
+}
+.fff{
+    width: 30px ;
+    height: 15px ;
+    background-color: #4F5B72;
+    color :white ;
+    font-size: larger;
+}
+
+a {
+    color: #1F2933;
+    text-decoration: none;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.divhh a {
+    display: inline-block;
+    padding: 10px 16px;
+   /* margin: 4px 4px 4px 0; */
+    border-radius: 12px;
+    background-color: rgba(40, 85, 150, 0.565);
+    color: #b7bec5;
+    
+}
+.divhh{
+    margin-left: 380px;
+    display: inline;
+}
+
+.divhh a:hover {
+     background-color: white;
+    color :rgba(40, 85, 150, 0.565) ;
+}
+
+body{
+    background: linear-gradient(135deg, #E3E7EA 0%, #C8D4DE 50%, #A8BCC8 100%);
+    background-size: cover;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1 {
+    text-align: center;
+    color: #1F2933;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+.home-intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.home-intro .intro-text {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: #1F2933;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.course-list {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 15px;
+    border-bottom: 1px solid #A2B0BD;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 8px 0;
+    padding: 12px 16px;
+    border-radius: 30px;
+    border: 2px solid #4C8C7A;
+    font-size:small;
+    color: #1F2933;
+    transition: background-color 0.2s ease;
+}
+
+li:hover {
+    background-color: rgb(147, 179, 228);
+    color: #1F2933;
+}
+
+.add-course-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.addcourseform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addcourseform label {
+    font-size: larger;
+    font-weight: bold;
+    color: #1F2933;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.addcourseform input[type="text"],
+.addcourseform select {
+    padding: 12px;
+    border: 1px solid #A2B0BD;
+    border-radius: 8px;
+    background-color: #F7FAFC;
+    color: #1F2933;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.addcourseform input[type="text"]:focus,.addcourseform input[type="number"]:focus,
+.addcourseform select:focus {
+    border-color: #4C8C7A;
+    box-shadow: 0 0 5px rgba(76, 140, 122, 0.3);
+    outline: none;
+}
+
+
+.addcourseform input[type="submit"] {
+    align-self: center;
+    margin-top: 10px;
+}
+.contact-info {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.contact-card {
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.contact-card h4 {
+    color: #3F5168;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-detail {
+    color: #1F2933;
+    font-size: 1rem;
+    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.phone-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4C8C7A;
+    background-color: #F7FAFC;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email-link {
+    color: #4C8C7A;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.2s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email-link:hover {
+    color: #395766;
+    text-decoration: underline;
+}
+
+.contact-form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form label {
+    font-size: larger;
+    font-weight: bold;
+    color: #1F2933;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #A2B0BD;
+    border-radius: 8px;
+    background-color: #F7FAFC;
+    color: #1F2933;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="tel"]:focus,
+.contact-form textarea:focus {
+    border-color: #4C8C7A;
+    box-shadow: 0 0 5px rgba(76, 140, 122, 0.3);
+    outline: none;
+}
+
+.contact-form input[type="submit"] {
+    align-self: center;
+    margin-top: 10px;
+}
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(255,255,255,0.88);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.course-table th, .course-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #A2B0BD;
+}
+.course-table th {
+    background-color: #3F5168;
+    color: #F1F3F5;
+    font-weight: bold;
+    font-size: larger;
+}
+.course-table tbody tr:nth-child(even) {
+    background-color: #F7FAFC;
+}
+.course-table tbody tr:hover {
+    background-color: #E3E7EA;
+}
+.add{
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 4px 4px 4px 0;
+    border-radius: 12px;
+    background-color: rgba(40, 85, 150, 0.565);
+    color: #b7bec5;
+}
+.add:hover{
+    background-color: white;
+    color :rgba(40, 85, 150, 0.565)
+}
+footer {
+    background-color: #3F5168;
+    color: #F1F3F5;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer h3,
+footer h2 {
+    margin: 10px 0;
+    color: #F1F3F5;
+}
+
+footer a {
+    color: #F1F3F5;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #A7D7C5;
+}
+.a1,.a2,.a3,.a4,.a5,.pp1{
+    padding: 30px;
+    background-color: #5A7088;
+    width: 60px;
+    border: 2px solid #D0D7E1;
+    height: fit-content;
+    border-radius: 20px;
+    color: #F8F9FA;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.a2:hover,.a3:hover,.a4:hover,.a5:hover,.pp1:hover
+{
+  background-color: #395766;
+    color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+    width: 100px;
+
+}
+
+.a1 .course-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #F3F5F7;
+    color: #1F2933;
+    padding: 10px;
+    border: 1px solid #BCC3CC;
+    border-radius: 5px;
+    width: 200px;
+    z-index: 10;
+}
+
+.a1:hover 
+{
+    background-color: #395766;
+    color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+    width: 100px;
+
+}
+
+.a1:hover .course-content {
+    display: block;
+}
+.divtn{
+    background-color: #A7D7C5;
+
+}
+
+
+nav .divt a {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 4px 4px 4px 0;
+    border-radius: 12px;
+    background-color: rgba(40, 85, 150, 0.565);
+    color: #b7bec5;
+}
+
+nav .divt a:hover {
+     background-color: white;
+    color :rgba(40, 85, 150, 0.565) ;
+}
+
+form {
+
+    max-width: 380px;
+    margin:40px auto ;
+    padding: 24px;
+    background-color: rgba(255,255,255,0.88);
+    border: 1px solid rgba(112,130,150,0.35);
+    border-radius: 20px;
+    box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
+}
+form input[type="search"],
+form select {
+    width: 100%;
+    padding: 14px 16px;
+    margin: 14px 0;
+    border: 1px solid #A2B0BD;
+    border-radius: 12px;
+    background-color: #F7FAFC;
+    color: #1F2933;
+    font-size: 1rem;
+}
+form input[type="search"]::placeholder {
+    color: #7A8695;
+}
+form input[type="submit"] {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 18px auto 0;
+}
+.noo{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.no{
+    font-style: normal;
+    font-weight: bolder;
+    color :white ;
+    background-color: #4C8C7A;
+    margin-left: 50px ;
+    height: 65px;
+    width: 190px;
+    justify-content: center;
+    align-items: center;
+    display: flex ;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contact-form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form label {
+    font-size: larger;
+    font-weight: bold;
+    color: #1F2933;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #A2B0BD;
+    border-radius: 8px;
+    background-color: #F7FAFC;
+    color: #1F2933;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="tel"]:focus,
+.contact-form textarea:focus {
+    border-color: #4C8C7A;
+    box-shadow: 0 0 5px rgba(76, 140, 122, 0.3);
+    outline: none;
+}
+
+.contact-form input[type="submit"] {
+    align-self: center;
+    margin-top: 10px;
+}
+.hero-section {
+    background: linear-gradient(135deg, #4C8C7A 0%, #3F5168 100%);
+    color: #F1F3F5;
+    padding: 60px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.hero-buttons .buttonn,
+.hero-buttons .button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-buttons .buttonn {
+    background-color: #F1F3F5;
+    color: #3F5168;
+}
+
+.hero-buttons .buttonn:hover {
+    background-color: #E3E7EA;
+    transform: translateY(-2px);
+}
+
+.hero-buttons .button {
+    background-color: transparent;
+    color: #F1F3F5;
+    border: 2px solid #F1F3F5;
+}
+
+.hero-buttons .button:hover {
+    background-color: #F1F3F5;
+    color: #3F5168;
+    transform: translateY(-2px);
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #A7D7C5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stat p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #E3E7EA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.courses-section {
+    padding: 40px 20px;
+    background-color: #F7FAFC;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 30px auto 0;
+}
+
+.course-card {
+    background-color: rgba(255,255,255,0.95);
+    border-radius: 15px;
+    padding: 30px 25px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #E3E7EA;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.course-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.course-card h4 {
+    color: #3F5168;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.course-card p {
+    color: #1F2933;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.course-link {
+    display: inline-block;
+    color: #4C8C7A;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #4C8C7A;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.add,.hosa{
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 4px 4px 4px 0;
+    border-radius: 12px;
+    background-color: rgba(40, 85, 150, 0.565);
+    color: #b7bec5;
+}
+.add:hover{
+    background-color: white;
+    color :rgba(40, 85, 150, 0.565)
+}
+footer {
+    border: #b7bec5 2px solid;
+    border-radius: 20px ;
+    background-color: #3F5168;
+    color: #F1F3F5;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fff{
+    display: inline;
+
+}
+footer h3,
+footer h2 {
+    margin: 10px 0;
+    color: #F1F3F5;
+}
+
+footer a {
+    color: #F1F3F5;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #A7D7C5;
+}
+.hhh1{
+
+    background-color: #3F5168;
+    border:#A8BCC8 2px solid;
+    border-radius: 20px;
+    text-align: center;
+}
